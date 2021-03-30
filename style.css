@@ -1,0 +1,1033 @@
+/*Обнуление стилей*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	margin: 0;
+}
+
+ul {padding: 0px;}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-and-content {
+	flex-grow: 1;
+}
+
+/*Блок container, отвечающий за центрирование нашей страницы*/
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header li {
+	list-style-type: none;	
+}
+
+.section-heading {
+	margin-top: 112px;
+	background: url('img/top-image.png') right top no-repeat;
+	background-size: 50%;
+	flex-grow: 1;
+
+}
+
+.paragraph {
+	font-size: 16px;
+	line-height: 26px;
+	color: #1F3F68;
+	letter-spacing: 0.05em;
+	opacity: 0.6;
+}
+
+.top {
+	background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+	box-sizing: border-box;
+}
+
+.top-paragraph {
+	width: 425px;
+	margin-top: 32px;
+	margin-bottom: 71px;
+}
+
+.top-title {
+	min-height: 250px;
+	text-align: center;
+	background: url('img/contact-top-image.svg') center no-repeat;
+	margin-top: 47px;
+
+}
+
+.top__info_box {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-height: 768px;
+	box-sizing: border-box;
+	padding-top: 39px;
+}
+
+.top-button {
+	font-size: 16px;
+	line-height: 26px;
+	background: #5A98D0;
+	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+	border-radius: 10px;
+	padding: 15px 50px;
+	text-decoration: none;
+	display: inline-block;
+
+	text-align: center;
+	letter-spacing: 0.04em;
+
+	color: #FFFFFF;
+}
+
+.heading-1 {
+	font-size: 64px;
+	color: #1F3F68;
+	width: 510px;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 116%;
+	letter-spacing: 0.04em;
+	margin: 0;
+}
+
+.heading-2 {
+	font-weight: 500;
+	font-size: 44px;
+	text-align: center;
+	line-height: 74px;
+	letter-spacing: 0.04em;
+	color: #FFF;
+	padding-top: 50px;
+	margin-bottom: 16px;
+}
+
+.heading-3 {
+	font-size: 36px;
+	text-align: center;
+	font-weight: 300;
+	line-height: 128%;
+	letter-spacing: 0.05em;
+	color: #000000;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.heading-4 {
+	font-size: 20px;
+	line-height: 30px;
+	color: #1F3F68;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.main-content {
+	margin-top: 64px;
+}
+
+.main-content-items {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 64px;
+	margin-bottom: 64px;
+}
+
+.main-content__item {
+	width: 359px;
+	padding: 44px 32px;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-content__item p {
+	margin-top: 14px;
+	margin-bottom: 0;
+}
+
+.main-content-item-link {
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #5A98D0;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+.main-content-item-link:after {
+	content: '';
+	background: url('img/arrow.svg') right no-repeat;
+	padding-right: 40px;
+}
+
+.main-content__item-image {
+	margin-bottom: 51px;
+	align-self: center;
+}
+
+.finished-project {
+	text-align: center;
+}
+
+.finished-project .heading-3 {
+	margin-bottom: 32px;
+}
+
+.finished-project .paragraph {
+	color: #222222;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 64px;
+	opacity: 1;
+}
+
+.finished-project-pictures {
+	position: relative;
+	flex-grow: 1;
+}
+
+.finished-project-pictures:last-child {
+	margin-left: 32px;
+}
+
+.project__image {
+	width: 100%;
+}
+
+.project__image-1 {
+	width: 100%;
+}
+
+.project-text {
+	position: absolute;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.project-text-big {
+	position: absolute;
+	top: 64px;
+	right: 64px;
+	font-size: 32px;
+	line-height: 144%;
+	margin: 0;
+	}
+
+.project-text-small {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+	font-size: 28px;
+	line-height: 164%;
+	margin: 0;	
+}
+
+.project-picture-small {
+	display: flex;
+	justify-content: space-between;
+	margin: 32px auto 112px;
+}
+
+.bottom {
+	background-color: #316099;
+}
+
+.bottom-info {
+	padding-top: 91px;
+	/*padding-right: 113px;*/
+	/*padding-left: 113px;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.heading-bottom, .paragraph-bottom {
+	color: #fff;
+	text-align: left;
+}
+
+.heading-bottom {
+	margin-bottom: 32px;
+	font-weight: 400;
+}
+
+.paragraph-bottom {
+	margin-bottom: 96px;
+	margin-top: 0;
+}
+
+.section-bottom {
+	width: 495px;
+}
+
+.section-bottom .heading-3 {
+	width: 340px;
+}
+
+.button-bottom {
+	background: #5A98D0;
+	padding: 15px 80px;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFF;
+	text-decoration: none;
+	height: 100%;
+	margin-top: 73px;
+}
+
+.footer {
+	padding-bottom: 64px;
+	/*padding-left: 113px;*/
+	/*padding-right: 113px;*/
+}
+
+.footer-contacts {
+	display:flex;
+	justify-content: space-between;
+	margin: 64px auto 64px;
+	padding: 0;
+}
+
+.footer-contacts li {
+	list-style: none;
+	max-width: 316px;
+	font-size: 16px;
+	line-height: 162%;
+	letter-spacing: 0.05em;
+	color: #FFF;
+	flex-grow: 1;
+    flex-basis: 33.333%;
+}
+
+.footer-contacts-list:before {
+	content: '';
+	margin-right: 19px;
+}
+
+.footer-contacts-list {
+	display: flex;
+}
+
+.footer-adress:before {
+	content: 'A.';
+}
+
+.footer-tel:before {
+	content: 'T.';
+}
+
+.footer-mail:before {
+	content: 'E.';
+}
+
+.footer-mail-link {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.copyright {
+	margin-top: 64px;
+}
+
+.copyright p {
+	opacity: 0.4;
+	color: #fff;
+}
+
+hr {
+	border: 1px solid #FFF;
+	opacity: 0.4;
+	margin: 0;
+}
+
+/*СТИЛИ ДЛЯ КОНТАКТОВ*/
+
+.container-contact {
+	max-width: 940px;
+	margin: auto;
+}
+
+.section-contacts {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	margin-bottom: 96px;
+}
+
+.contact-top-block {
+	padding-top: 39px;
+	/*В макете 37px, но тогда меню "прыгает" при переключении страниц*/
+
+}
+
+.contact-top-p {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	max-width: 780px;
+	margin: auto;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+.contact-heading-4 {
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-weight: 500;
+	margin-bottom: 24px;
+}
+
+.contact-details {
+	flex-grow: 1;
+	margin-right: 101px;
+}
+
+.contact-image {
+	margin-bottom: 56px;
+	margin-top: 75px;
+}
+
+.contact-list li {
+	margin-bottom: 16px;
+}
+
+.contact-list li:last-child {
+	margin-bottom: 0;
+}
+.contacts-phone {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	list-style-type: none;
+	margin-bottom: 40px;
+	font-weight: 300;
+
+	color: #1F3F68;
+	opacity: 0.6;
+}
+
+.contacts-phone li:before {
+	content: '';
+	background-image: url('img/contact-phone-icon.svg');
+	background-repeat: no-repeat;
+	padding-right: 18px;
+	margin-right: 19px;
+}
+
+li.contact-website:before {
+	content: '';
+	background-image: url('img/contact-site-icon.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-right: 20px;
+	margin-right: 18px;
+}
+
+li.contact-mail:before {
+	content: '';
+	background-image: url('img/contact-mail-icon.svg');
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	margin-right: 18px;
+}
+
+.contact-form-p {
+	max-width: 299px;
+	margin-bottom: 40px;
+	font-weight: 300;
+	letter-spacing: 0.04em;
+}
+
+/*.contact-list {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+
+	color: #1F3F68;
+}*/
+
+
+.contacts-link {
+	list-style-type: none;
+	opacity: 0.6;
+}
+
+a.contact-form-link {
+	font-family: Roboto;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+
+	color: #1F3F68;
+}
+
+a.contact-form-link:hover{
+	text-decoration: underline;
+}
+
+.feedback-form {
+	padding: 56px;
+
+	background: #FFFFFF;
+	box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	flex-grow: 1;
+}
+
+.input {
+	font-family: Roboto;
+	border: 1px solid #356EAD;
+	box-sizing: border-box;
+	box-shadow: none;
+	border-radius: 10px;
+	opacity: 0.4;
+	width: 428px;
+	padding-left: 36px;
+
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+}
+
+.input-text {
+	height: 72px;
+	margin-bottom: 32px;
+	padding-right: 15px;
+}
+
+.input-message {
+	min-height: 144px;
+	margin-bottom: 72px;
+    padding-top: 21px;
+    padding-right: 15px;
+}
+
+
+.input-title {
+	display: inline-block;
+	min-width: 80px;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	margin-bottom: 8px;
+
+	color: #1F3F68;
+	opacity: 0.8;
+
+}
+
+::placeholder{
+	opacity: 0.3;
+}
+/*::-webkit-input-placeholder {
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	opacity: 0.2;	
+	font-weight: 300;
+}*/
+/*::-moz-placeholder {
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	opacity: 0.2;	
+	font-weight: 300;
+	}*//* Firefox 19+ */
+/*:-moz-placeholder{
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	opacity: 0.2;	
+	font-weight: 300;
+	}*//* Firefox 18- */
+/*:-ms-input-placeholder{
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	opacity: 0.2;	
+	font-weight: 300;
+}*/
+
+.button {
+	background: #5A98D0;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	border: none;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	padding: 23px 183px;
+	cursor: pointer;
+}
+
+.map {
+	margin-bottom: 112px;
+	height: 480px;
+}
+
+
+/*КОНЕЦ СТЕЛЕЙ ДЛЯ КОНТАКТОВ*/
+
+
+@media (max-width: 1024px) {
+	.margin-container {
+		margin-left: 32px;
+		margin-right: 32px;
+	}
+
+	/*.top {
+		padding-top: 52px;
+	}*/
+
+	.main-content-heading-3 {
+		max-width: 704px;
+		margin: auto;
+	}
+
+	.section-heading {
+		margin-top: 117px;
+	}
+
+	.top__info_box {
+		/*В макете два отступа 33+19=52px, оставила один, т.к. на странице контакты отступ 15px и если сделать здесь 52, то будет очень сильно "прыгать" шапка*/
+		padding-top: 33px;
+		/*padding-top: 52px; */
+		
+	}
+
+	.top-paragraph {
+		margin-bottom: 72px;
+	}
+
+	.section-heading {
+		background-position: right 170px;
+	}
+
+	.main-content-items {
+		flex-direction: column;
+    	align-items: center;
+    	margin-bottom: 127px;
+    }
+
+    .main-content__item:last-child {
+		margin-bottom: 0;
+	}
+
+    .main-content__item {
+    	width: 335px;
+    	margin-bottom: 32px;
+    	padding: 41px 30px 26px;
+    }
+
+    .main-content__item-image {
+    	margin-bottom: 48px;
+    }
+
+    .main-content__item .paragraph {
+		margin-top: 13px;
+	}
+
+	.finished-project .paragraph {
+		width: 67%;
+	}
+
+	.project-picture-small {
+		margin-bottom: 109px;
+	}
+
+	.bottom-info {
+		padding-top: 47px;
+		padding-left: 124px;
+		padding-right: 0;
+	}
+
+	.paragraph-bottom {
+		width: 336px;
+		margin-bottom: 64px;
+	}
+
+	.button-bottom {
+		margin-top: 114px;
+		margin-right: 124px;
+		padding: 3px 30px;
+	}
+
+	.footer {
+		padding-left: 125px;
+		padding-right: 125px;
+	}
+
+	.footer-contacts {
+		flex-direction: column;
+	}
+
+	.footer-contacts li {
+		max-width: none;
+		margin-bottom: 25px;
+	}
+
+	.footer-contacts li:last-child {
+		margin-bottom: 0;
+	}
+
+	.footer-contacts-list::before{
+		 margin-right: 45px;
+	}
+
+	/*НАЧАЛО СТИЛЕЙ ДЛЯ КОНТАКТОВ*/
+
+	.contact-top-block {
+		padding-top: 33px;
+		/*В макете 15px, но тогда меню "прыгает" при переключении страниц*/
+	}
+
+	.top-title {
+		margin-top: 35px;
+	}
+
+	
+	.contact-top-p {
+		max-width: 520px;
+	}
+
+	.section-contacts {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 63px;
+		margin-bottom: 64px;
+	}
+
+	.contact-details {
+		margin-right: 0;
+		margin-bottom: 64px;
+	}
+
+	.contact-image {
+		margin-top: 0;
+		margin-bottom: 64px;
+	}
+
+	.feedback-form-heading-4 {
+		max-width: 178px;
+		margin-bottom: 18px;
+	}
+
+	.feedback-form {
+		padding: 55px 54px;
+	}
+
+	.input-text {
+		height: 70px;
+	}
+
+	.input-message {
+		min-height: 140px;
+		margin-bottom: 70px;
+	}
+
+	.button {
+		min-width: 412px;
+		padding-top: 22px;
+		padding-bottom: 22px;
+	}
+
+	.map {
+	margin-bottom: 64px;
+	height: 392px;
+}
+
+	/*КОНЕЦ СТИЛЕЙ ДЛЯ КОНТАКТОВ*/
+
+}
+
+@media (max-width: 667px) {
+	.margin-container {
+		margin: 0;
+	}
+
+	.header {
+		margin-left: 16px;
+		margin-right: 19px;
+	}
+
+	.heading-1 {
+		font-size: 32px;
+		line-height: 37px;
+		text-align: center;
+		max-width: 320px;
+	}
+
+	.heading-3 {
+		font-size: 24px;
+		line-height: 28px;
+		letter-spacing: normal;
+		text-align: center;
+	}
+
+	.section-heading{
+		margin: 33px 16px 0;
+		background: none;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.top__info_box {
+		padding-top: 21px;
+		min-height: 376px;
+	}
+
+	.top-paragraph {
+		width: auto;
+		text-align:center;
+		margin-top: 12px;
+		margin-bottom: 32px;
+	}
+
+	.top-button {
+	    font-size: 12px;
+	    line-height: 26px;
+	    border-radius: 10px;
+	    padding: 1px 10px;
+	}
+
+	.main-content {
+		margin-top: 48px;
+		margin-bottom: 64px;
+	}
+
+	.main-content-items {
+		margin: 32px 20px 0;
+	}
+
+	.main-content__item {
+		padding-bottom: 21px;
+		margin-bottom: 32px;
+		width: 100%;
+	}
+
+	.main-content-item-link::after {
+		padding-right: 30px;
+	}
+
+	.project {
+		margin-left: 15px;
+		margin-right: 17px;
+	}
+
+	.finished-project .paragraph {
+		width: 100%;
+		margin-bottom: 82px;
+	}
+
+	.project-text-big {
+		top: 16px;
+		right: 16px;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.project-text-small {
+		top: 26px;
+		left: 16px;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.project-text-small-last {
+		top: 16px;
+	}
+
+	.project-picture-small {
+		flex-direction: column;
+	}
+
+	.finished-project-pictures {
+		margin-bottom: 16px;
+	}
+
+	.finished-project-pictures:last-child {
+    	margin-left: 0;
+    	margin-bottom: 64px;
+    }
+
+	.bottom-info {
+		flex-direction: column;
+		padding-top: 18px;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.section-bottom {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.section-bottom .heading-3 {
+   		width: auto;
+   		max-width: 200px;
+	}
+
+	.paragraph-bottom {
+	    width: 100%;
+	    margin-bottom: 40px;
+	    text-align: center;
+	}
+
+	.button-bottom {
+		margin: 0 auto 41px;
+		padding: 3px 20px;
+	}
+
+	.footer {
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-bottom: 32px;
+	}
+
+	.footer-contacts {
+		margin: 32px auto 0;
+	}
+
+	.footer-contacts-list::before {
+    	margin-right: 23px;
+	}
+
+	.footer-contacts li {
+    	margin-bottom: 17px;
+	}
+
+	.copyright {
+    	margin-top: 37px;
+    	text-align: center;
+	}
+
+	/*СТИЛИ ДЛЯ СТРАНИЦЫ КОНТАКТЫ*/
+
+	.top-title {
+		margin-top: 20px;
+		padding-left: 17px;
+		padding-right: 17px;
+	}
+
+	.heading-2 {
+		font-size: 24px;
+		line-height: 28px;
+		padding-top: 43px;
+		margin-bottom: 32px;
+	}
+
+	.contact-top-block {
+    	padding-top: 21px;
+    	/*По макету 15px, но тогда шапка "прыгает" при переходе между страницами*/
+    }
+
+	.contact-top-p {
+		font-size: 16px;
+		line-height: 30px;
+		letter-spacing: normal;
+		max-width: 341px;
+	}
+
+	.section-contacts {
+		margin-top: 46px;
+		margin-bottom: 32px;
+	}
+
+	.contact-form-p {
+		margin-bottom: 32px;
+	}
+
+	.contacts-phone {
+		margin-bottom: 34px;
+	}
+
+	.contact-details {
+		margin-bottom: 32px;
+	}
+
+	.feedback-form {
+    padding: 36px 35px;
+    }
+
+    .feedback-form-heading-4 {
+    	font-size: 16px;
+		line-height: 30px;
+		max-width: 217px;
+		margin-bottom: 31px;
+    }
+
+	.input {
+		width: 272px;
+		padding-left: 24px;
+	}
+
+	.input-title {
+		min-width: 128px;
+		font-size: 14px;
+		line-height: 1em;
+		display: inline;
+		margin-bottom: 6px;
+	}
+
+	.input-text {
+		height: 46px;
+		margin-bottom: 32px;
+	}
+
+	.input-message {
+		min-height: 92px;
+		margin-bottom: 70px;
+	}
+
+	.button {
+		padding: 10px 10px;
+		min-width: 100%;
+	}
+
+	.map {
+	    margin-bottom: 32px;
+	    height: 349px;
+	}
+
+	/*КОНЕЦ СТИЛЕЙ ДЛЯ СТРАНИЦЫ КОНТАКТЫ*/
+
+}
+
+
+
